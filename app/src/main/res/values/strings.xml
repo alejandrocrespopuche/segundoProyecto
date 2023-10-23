@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">segundoProyecto</string>
+    <string name="nombre">Introduce tu nombre</string>
+    <string name="volver">VOLVER</string>
+    <string name="espacio" />
+    <string name="pulsame">Pulsame</string>
+    <string name="hola">Hola %1$s</string>
+</resources>
