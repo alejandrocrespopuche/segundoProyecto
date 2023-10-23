@@ -5,15 +5,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+
 
 
 class MainActivity : ComponentActivity() {
@@ -32,6 +26,7 @@ class MainActivity : ComponentActivity() {
                 val intent = Intent(this, ActivityResultado::class.java)
                 intent.putExtra("EXTRA_NAME", nombre)
                 startActivity(intent)
+                Toast.makeText(this, "actividad 2", Toast.LENGTH_SHORT).show()
             }
         }
 
